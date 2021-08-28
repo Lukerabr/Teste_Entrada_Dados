@@ -1,12 +1,14 @@
 import 'package:entrada_dados/CampoTexto.dart';
 import 'package:flutter/material.dart';
 import 'package:entrada_dados/EntradaCheckbox.dart';
+import 'EntradaRadioButton.dart';
 
 void main(){
   runApp(
       MaterialApp(
         //home: CampoTexto(),
-        home: EntradaCheckbox(),
+        //home: EntradaCheckbox(),
+        home: EntradaRadioButton(),
       )
   );
 }

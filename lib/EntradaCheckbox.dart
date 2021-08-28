@@ -60,7 +60,7 @@ class _EntradaCheckboxState extends State<EntradaCheckbox> {
                     style: TextStyle(
                       fontSize: 15
                     )),
-                )
+            )
 
 
             /*
