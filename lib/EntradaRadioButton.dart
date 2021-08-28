@@ -50,6 +50,7 @@ class _EntradaRadioButtonState extends State<EntradaRadioButton> {
                 value: "Neutre",
                 groupValue: _escolhaUsuario,
                 onChanged: (escolha){
+
                   setState(() {
                     _escolhaUsuario = escolha.toString();
                   });
